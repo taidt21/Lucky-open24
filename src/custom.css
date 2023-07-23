@@ -1,0 +1,294 @@
+:root {
+    --color-main: #009ef7;
+
+    --color-title: #00284c;
+    --color-bg: #e5f3ff;
+    --border-color: #c2c9d6;
+    --color-hoverIcon: brightness(0) saturate(100%) invert(45%) sepia(84%) saturate(2392%)
+        hue-rotate(174deg) brightness(98%) contrast(103%);
+}
+
+.btn-import {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    height: 40px;
+    border: 1px solid #e6e1e6;
+    border-radius: 4px;
+    display: flex;
+    color: #666466;
+}
+
+.btn-export {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    height: 40px;
+    border: 1px solid #e6e1e6;
+    border-radius: 4px;
+    display: flex;
+    color: #666466;
+}
+
+.btn-add-item {
+    color: #fffaff;
+    background-color: var(--color-main);
+    height: 40px !important;
+    border-radius: 4px !important;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #fffaff;
+}
+
+.input-search {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    background: #fffaff;
+    border: 1px solid #cdc9cd;
+    border-radius: 8px;
+    height: 40px;
+}
+
+.text-secondary {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    color: #009ef7;
+}
+
+.text-neutral-90 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    align-items: center;
+    color: #333233;
+}
+
+.bg-table {
+    background-color: #f2ebf0;
+}
+
+.text-th-table {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    align-content: center;
+    /* Neutral/70 */
+
+    color: #666466;
+}
+
+.text-td-table {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    vertical-align: middle;
+    /* Neutral/90 */
+
+    color: #333233;
+}
+
+.pagination-view-record {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    color: #666666;
+}
+
+.btn-more-horizontal {
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    border: 1px solid #cfcbcf;
+    border-radius: 4px !important;
+}
+
+.page-header {
+    height: 104px;
+    border-bottom: 1px solid #e6e1e6;
+    box-sizing: border-box;
+    background: #ffffff;
+}
+
+.page-body {
+    height: calc(100% - 104px);
+}
+
+.ovver-view-item {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #ffffff;
+    border-radius: 8px;
+}
+
+.ovver-view-item-icon {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 28px;
+    top: calc(50% - 56px / 2);
+
+    /* Secondary/Warning */
+
+    background: #ffc700;
+    border-radius: 18px;
+}
+
+.ovver-view-item-content {
+    position: absolute;
+    width: auto;
+    height: 56px;
+    left: 96px;
+    top: calc(50% - 56px / 2);
+}
+
+.ovver-view-item-content .title-overview {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666466;
+}
+
+.ovver-view-item-content .percen-increase-overview {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #50cd89;
+    background: #e8fff3;
+    border-radius: 12px;
+}
+
+.ovver-view-item-content .percen-reduced-overview {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #f1416c;
+    background: #fff5f8;
+    height: 16px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+}
+
+.ovver-view-item-content .amount-overview {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333233;
+}
+.btn-add-in-select {
+    color: var(--color-main);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.btn-cancel-dialog {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    height: 32px;
+    background: #ffffff;
+    border: 1px solid var(--color-main);
+    border-radius: 4px;
+    color: var(--color-main);
+}
+.btn-ok-dialog {
+    height: 32px;
+    border-radius: 4px;
+    background: var(--color-bg);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: none;
+    align-items: center;
+    padding: 6px 16px;
+    color: #ffffff;
+}
+.btn-outline-hover {
+    border-color: var(--border-color) !important;
+    transition: '.3s';
+    color: #525f7a !important;
+}
+.btn-outline-hover:hover {
+    border-color: var(--color-main) !important;
+}
+.btn-container-hover {
+    background-color: var(--color-main) !important;
+}
+.btn-container-hover:hover {
+    background-color: #0056f7 !important;
+}
+.btn-container-hover .MuiTouchRipple-root * {
+    background-color: var(--color-main) !important;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary
+    .MuiOutlinedInput-notchedOutline {
+    -webkit-transition: '.4s';
+    -o-transition: '.4s';
+    transition: '.4s';
+    border-color: var(--border-color) !important;
+}
+.MuiOutlinedInput-notchedOutline input {
+    color: #525f7a !important;
+}
+.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-width: 1px !important;
+    border-color: var(--color-main) !important;
+}
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary:hover
+    .MuiOutlinedInput-notchedOutline {
+    border-color: var(--color-main) !important;
+}
+.MuiDataGrid-menuIcon {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0;
+}
+.MuiDataGrid-columnSeparator {
+    display: none !important;
+}
+.MuiDataGrid-cell {
+    color: #3d475c;
+}
+.MuiDataGrid-columnHeaderTitleContainerContent {
+    color: #3d475c;
+}

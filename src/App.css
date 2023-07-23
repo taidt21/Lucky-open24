@@ -1,0 +1,222 @@
+.App {
+    text-align: center;
+}
+
+body .font-normal {
+    font-size: 14px;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-calendars/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-dropdowns/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-lists/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-navigations/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-react-schedule/styles/material.css';
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.MuiDialogTitle-root {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* .MuiDialogActions-root {
+    padding-right: 20px;
+} */
+
+.page-title-search {
+    background-color: var(--color-bg);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+}
+
+.icon-size {
+    font-size: 40px;
+    color: var(--color-main);
+}
+
+.grid-color {
+    width: 30px;
+    height: 30px;
+    border-radius: 16px;
+}
+
+.btn-only-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    border: 2px solid #cccc;
+    padding: 7px;
+}
+
+.btnIcon {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 4px !important;
+    border: 1px solid #cccc !important;
+    padding: 10px !important;
+}
+
+.btnIconText {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.MuiAutocomplete-root .MuiOutlinedInput-root {
+    padding: 3px;
+}
+
+.table-head tr th {
+    padding: 3px 5px;
+    border-color: #cccc;
+    text-align: center;
+}
+
+.table-body tr td {
+    padding: 0px 5px;
+}
+
+.MuiButtonBase-root.btnSecond {
+    padding: 3px 14px;
+}
+
+.MuiDialogActions-root.MuiDialogActions-spacing {
+    padding-right: 24px;
+}
+
+.MuiTablePagination-selectLabel,
+.MuiTablePagination-displayedRows {
+    margin-bottom: 0;
+}
+
+/* style main button*/
+
+.btnNhapXuat {
+    background-color: #fff;
+    color: #666466;
+    padding: 10px 16px;
+    border-color: #e6e1e6;
+    height: 40px;
+}
+
+.button-not-active {
+    color: #cccc !important;
+    border-color: #cccc !important;
+}
+
+/* style text in button */
+
+.MuiButton-root {
+    text-transform: initial !important;
+    font-weight: 400 !important;
+}
+
+/* button paging selected */
+
+.MuiPaginationItem-root.Mui-selected {
+    background-color: var(--color-main) !important;
+    color: white !important;
+}
+
+.MuiTreeItem-content {
+    padding: 8px 8px;
+}
+
+.MuiTreeItem-content .MuiTreeItem-label {
+    padding-left: 8px;
+}
+
+.modal-lable {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: rgba(0, 0, 0, 0.87) !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+        Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* error at TextField */
+
+.MuiFormHelperText-root {
+    margin-left: 0px !important;
+    color: red !important;
+}
+
+.MuiInputBase-input::placeholder {
+    font-size: 14px;
+}
+
+.MuiFormControlLabel-label {
+    font-size: 14px;
+}
+
+.dialog-title {
+    font-size: 24px;
+    color: #333233;
+    font-weight: 700;
+}
+
+.MuiOutlinedInput-root {
+    font-size: 14px;
+}
+
+/* text input */
+
+.MuiOutlinedInput-input {
+    font-size: 14px !important;
+}
+
+.inputEdit .MuiOutlinedInput-root {
+    border-radius: 8px;
+}
+
+.MuiDataGrid-columnHeaderTitleContainerContent:not(
+        .MuiDataGrid-columnHeaderCheckbox .MuiDataGrid-columnHeaderTitleContainerContent
+    ) {
+    width: 100%;
+}
+
+.MuiDataGrid-columnHeaderTitleContainerContent .MuiBox-root {
+    width: 100%;
+    text-align: center;
+}
+
+.MuiRadio-root.Mui-checked {
+    color: var(--color-main) !important;
+}

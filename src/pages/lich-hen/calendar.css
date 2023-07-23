@@ -1,0 +1,99 @@
+.fc-event-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 16px;
+}
+
+.fc-event-time {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px !important;
+    line-height: 16px;
+    position: relative;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.fc-event-time::after {
+    content: '\e80f';
+    /* The Unicode value for the Ant Design clock icon */
+    font-family: 'Ant Design Icons';
+    /* Use the Ant Design Icons font */
+    font-size: 12px;
+    /* Adjust the icon size */
+    position: absolute;
+    right: auto;
+    padding-left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fc-event {
+    border-left: 3px solid;
+    /* Set the desired left border style */
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.fc-scrollgrid-sync-inner {
+    height: 64px;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #ffffff;
+    box-shadow: inset -1px -1px 0px #e0e0e0;
+}
+
+.fc-col-header-cell-cushion {
+    margin-top: 19.5px;
+    text-decoration: none;
+    text-align: center;
+    color: #333233;
+}
+
+.fc-timegrid-slot-label-cushion {
+    width: 50px;
+    text-align: center;
+    align-items: center !important;
+    display: flex;
+}
+
+.fc-daygrid-day-frame {
+    text-decoration: none;
+}
+
+.btn-today {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    color: #7c3367;
+}
+
+.date-time-selected {
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #333233;
+}
+.fc-daygrid-day-number {
+    text-decoration: none;
+    color: #999699;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+}
+.fc-timegrid-slot {
+    height: 64px !important;
+}

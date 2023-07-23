@@ -1,0 +1,101 @@
+.btnToggleLeft {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #cccc;
+    padding: 4px;
+}
+
+.btnToggleRight {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #cccc;
+    border-left: none !important;
+    padding: 4px;
+}
+
+/*treeview nhom hanghoa*/
+
+.infor-cus .cusname {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.infor-cus .cusphone {
+    font-weight: 500;
+    font-size: 11px;
+    color: '#acaca5';
+}
+
+.cuspoint {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.infor-cus .cusstatus {
+    font-size: 11px;
+}
+
+.page-ban-hang .center .nhom-dich-vu {
+    font-weight: 500;
+    font-size: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.page-ban-hang .center .ten-dich-vu {
+    font-weight: 500;
+    font-size: 13px;
+    height: 45px;
+}
+
+.page-ban-hang .nvthuchien {
+    border-radius: 4px;
+    background-color: antiquewhite;
+    padding: 2px 2px;
+}
+
+.page-ban-hang .tongtien {
+    float: right;
+    font-weight: 500;
+}
+
+/*poppup checkin*/
+
+.poppup-add_checkin {
+    position: fixed;
+    width: 1128px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: calc(100vw - 48px);
+    border-radius: 12px;
+    background-color: #fff;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.4s;
+    z-index: 5;
+}
+
+.poppup-add_checkin.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.overlay-checkin {
+    position: fixed;
+    opacity: 0;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    cursor: pointer;
+}
+
+.overlay-checkin.active {
+    pointer-events: all;
+    opacity: 1;
+}
